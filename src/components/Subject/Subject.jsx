@@ -21,13 +21,13 @@ const Subject = () => {
       <h1 className='heading'>{val}</h1>
       <div className="card">
         <div onClick={()=>{navigate('/list',{state:{parent:location.state.parent,sub:"physics"}})}} className="sub">
-          <img  src="src\assets\physics_hd.avif" alt="" />
+          <img  src="assets/physics_hd.avif" alt="" />
         </div>
         <div onClick={()=>{navigate('/list',{state:{parent:location.state.parent,sub:"chemistry"}})}} className="sub">
-          <img src="src\assets\chemistry-hd.jpg" alt="" />
+          <img src="assets/chemistry-hd.jpg" alt="" />
         </div>
         <div onClick={()=>{navigate('/list',{state:{parent:location.state.parent,sub:"maths"}})}} className="sub">
-          <img src="src\assets\maths.jpg" alt="" />
+          <img src="assets/maths.jpg" alt="" />
         </div>
       </div>
     </div>
